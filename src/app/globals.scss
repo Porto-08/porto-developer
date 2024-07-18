@@ -1,0 +1,104 @@
+:root {
+  --background-color: #161513;
+  --primary-color: #ffffff;
+  --secondary-color: #c6a6e3;
+  --tertiary-color: #222222;
+  --secondary-text-color: #8491A0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  line-height: 1.5;
+}
+
+.btn {
+  font-size: clamp(1rem, 2vw, 1.3rem);
+  font-weight: 600;
+
+  padding: 15px 20px;
+  border-radius: 30px;
+
+  cursor: pointer;
+  transition: background-color 0.3s;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+  
+}
+
+.btn-primary {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+  border: 2px solid transparent;
+
+  &:hover {
+    background-color: transparent;
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+  }
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
+
+  &:hover {
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+  }
+}
+
+.default_title {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s;
+
+  &:hover {
+    color: var(--secondary-color);
+  }
+}
+
+h2 {
+  font-size: clamp(1.5rem, 2vw, 2.5rem);
+  font-weight: 700;
+  text-transform: uppercase;
+  
+  color: var(--secondary-color);
+  padding: 5px 10px;
+  border-radius: 30px;
+}
+
+// Scrollbar Styling
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-color);
+}

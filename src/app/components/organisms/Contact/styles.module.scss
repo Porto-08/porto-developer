@@ -1,0 +1,37 @@
+.container {
+  margin-top: 100px;
+  padding: 50px 20px;
+
+  background: var(--tertiary-color);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  h3 {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    font-weight: 700;
+  }
+}
+
+.emailBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.socialMediaBox {
+  display: flex;
+  gap: 15px;
+
+  a {
+    font-size: 1.5rem;
+  }
+}
