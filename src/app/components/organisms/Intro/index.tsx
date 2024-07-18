@@ -39,7 +39,12 @@ export default function Intro() {
         >
           Get In Touch
         </Link>
-        <Link href="#" className="btn btn-secondary">
+        <Link
+          href="/pdfs/Samuel-Porto-Resume.pdf"
+          target="_blank"
+          rel="noreferrer"
+          className="btn btn-secondary"
+        >
           Download CV
         </Link>
       </div>
