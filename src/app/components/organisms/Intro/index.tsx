@@ -20,8 +20,8 @@ export default function Intro() {
       />
 
       <h1 className={styles.title}>
-        I do code and <br />
-        like to solve problems!
+        I code and <br />
+        solve problems!
       </h1>
 
       <p className={styles.description}>

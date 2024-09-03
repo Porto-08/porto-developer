@@ -1,5 +1,15 @@
 [
   {
+    "id": 28,
+    "name": "Zelia's Store!",
+    "description": "My mom has a small business and I decided to help her by creating a website for her store. The site is simple, but it has everything she needs to show her products and receive orders. I used NextJs to make the site faster and more SEO friendly. Also has an option to install the PWA on the phone.",
+    "pathPhoto": "/zelia-store.png",
+    "type": "fullstack (front e back)",
+    "link": "https://zelia-store.vercel.app/",
+    "github": "#",
+    "tecnologies": ["Supabase", "React", "NextJs", "Typescript", "TailwindCSS"]
+  },
+  {
     "id": 27,
     "name": "Uhuu!",
     "description": "Maintenance and development of new features for the Uhuu! ticket sales site and its internal systems.",
